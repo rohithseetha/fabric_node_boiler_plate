@@ -22,7 +22,7 @@ channel.addPeer(peer);
 
 //
 var member_user = null;
-var store_path = path.join('../../../hfc-key-store');
+var store_path = path.join(__dirname,'../../../hfc-key-store');
 console.log('Store path:'+store_path);
 var tx_id = null;
 
@@ -113,7 +113,7 @@ channel.addOrderer(order);
 
 //
 var member_user = null;
-var store_path = path.join('../../../hfc-key-store');
+var store_path = path.join(__dirname,'../../../hfc-key-store');
 console.log('Store path:'+store_path);
 var tx_id = null;
 
